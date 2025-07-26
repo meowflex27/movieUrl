@@ -3,7 +3,7 @@ const axios = require('axios');
 
 const app = express();
 const PORT = 3000;
-const TMDB_API_KEY = 'yourtmdbapikeyhere';
+const TMDB_API_KEY = 'ea97a714a43a0e3481592c37d2c7178a';
 
 // === 1. Your original subjectId extractor ===
 function extractSubjectId(html, movieTitle) {
